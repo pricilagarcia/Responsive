@@ -6,6 +6,7 @@
 
 body {
     font-size: 10px;
+    background-color: antiquewhite;
 }
 
 
@@ -37,11 +38,12 @@ header {
 }
 
 .logo {
+    background-image: url(../IMG/logo.PNG);
     width: 40em;
     height: 10em;
-    background-color: #EEA34E;
     display: inline-block;
     margin-top: 5em;
+    background-repeat: no-repeat;
 }
 
 .cajaMenu {
@@ -100,7 +102,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c940d6', end
     height: 11em;
     margin-top: 3em;
     font-size: 2em;
-    text-align: center;
+    text-align: justify;
 }
 
 
@@ -138,11 +140,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c940d6', end
         margin: auto;
     }
     .logo {
-        width: 25%;
+        background-image: url(../IMG/logo.PNG);
+        width: 40em;
         height: 10em;
-        background-color: #EEA34E;
         display: inline-block;
         margin-top: 5em;
+        background-repeat: no-repeat;
     }
     .cajaMenu {
         width: 70%;
@@ -177,11 +180,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c940d6', end
         margin: auto;
     }
     .logo {
-        width: 25%;
+        background-image: url(../IMG/logo.PNG);
+        width: 40em;
         height: 10em;
-        background-color: #EEA34E;
         display: inline-block;
         margin-top: 5em;
+        background-repeat: no-repeat;
+        
     }
     .cajaMenu {
         width: 70%;
@@ -204,3 +209,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c940d6', end
     }
     }
 }
+
