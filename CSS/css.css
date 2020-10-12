@@ -182,7 +182,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c940d6', end
     }
     .logo {
     background-image: url(../IMG/logo.PNG);
-    width: 40em;
+    width: 50em;
     height: 10em;
     display: inline-block;
     margin-top: 6.5em;
