@@ -145,6 +145,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c940d6', end
     height: 10em;
     display: inline-block;
     margin-top: 5em;
+    margin-left: 3.5em;
     background-repeat: no-repeat;
     }
     .cajaMenu {
@@ -184,7 +185,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c940d6', end
     width: 40em;
     height: 10em;
     display: inline-block;
-    margin-top: 5em;
+    margin-top: 6.5em;
     background-repeat: no-repeat;
         
     }
