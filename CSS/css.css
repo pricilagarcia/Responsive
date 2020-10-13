@@ -182,7 +182,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c940d6', end
     }
     .logo {
         background-image: url(../IMG/logo.PNG);
-        width: 30em;
+        width: 17em;
         display: inline-block;
         margin-top: 6.5em;
         margin-left: 1em;
@@ -190,7 +190,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c940d6', end
         
     }
     .cajaMenu {
-        width: 40%;
+        width: 50%;
         height: 10em;
         display: inline-block;
         margin-top: 5em;
