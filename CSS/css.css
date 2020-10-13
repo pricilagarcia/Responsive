@@ -140,13 +140,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c940d6', end
         margin: auto;
     }
     .logo {
-    background-image: url(../IMG/logo.PNG);
-    width: 40em;
-    height: 10em;
-    display: inline-block;
-    margin-top: 5em;
-    margin-left: 3.5em;
-    background-repeat: no-repeat;
+        background-image: url(../IMG/logo.PNG);
+        width: 40em;
+        height: 10em;
+        display: inline-block;
+        margin-top: 5em;
+        margin-left: 3.5em;
+        background-repeat: no-repeat;
     }
     .cajaMenu {
         width: 70%;
@@ -181,12 +181,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c940d6', end
         margin: auto;
     }
     .logo {
-    background-image: url(../IMG/logo.PNG);
-    width: 50em;
-    height: 10em;
-    display: inline-block;
-    margin-top: 6.5em;
-    background-repeat: no-repeat;
+        background-image: url(../IMG/logo.PNG);
+        width: 19.5em;
+        display: inline-block;
+        margin-top: 6.5em;
+        margin-left: 1em;
+        background-repeat: no-repeat;
         
     }
     .cajaMenu {
@@ -210,5 +210,3 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c940d6', end
     }
     }
 }
-
-
