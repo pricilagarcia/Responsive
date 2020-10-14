@@ -1,12 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: monospace;
+    font-family: 'Handlee', cursiva;
 }
 
 body {
     font-size: 10px;
-    background-color: antiquewhite;
+    background-color: D1D0D0;
+        /*D7D2D2;
+        D1D0D0;*/
 }
 
 
@@ -40,11 +42,13 @@ header {
 
 .logo {
     background-image: url(../IMG/logo.PNG);
-    width: 40em;
+    width: 30em;
     height: 10em;
     display: inline-block;
     margin-top: 5em;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .cajaMenu {
     width: 115em;
@@ -71,10 +75,35 @@ header {
 }
 
 .img{
+    background-image: url(../IMG/super11.jpg);
     width: 100%;
     height: 20em;
     background-color: gainsboro;
+    background-size: cover;
 }
+.img1{
+    background-image: url(../IMG/super22.jpg);
+    width: 100%;
+    height: 20em;
+    background-color: gainsboro;
+    background-size: cover;
+}
+.img2{
+    background-image: url(../IMG/super33.jpg);
+    width: 100%;
+    height: 20em;
+    background-color: gainsboro;
+    background-size: cover;
+}
+
+.img3{
+    background-image: url(../IMG/super4.jpg);
+    width: 100%;
+    height: 20em;
+    background-color: gainsboro;
+    background-size: cover;
+}
+
 
 .titulo {
     width: 100%;
@@ -101,7 +130,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c940d6', end
     width: 100%;
     height: 11em;
     margin-top: 3em;
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: justify;
 }
 
@@ -130,39 +159,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c940d6', end
 ----------------------*/
 
 @media only screen and (max-width: 768px) {
-    body {
+body {
         font-size: 7px;
         padding-left: 5%;
         padding-right: 5%;
     }
-    .boyGeneral {
+.boyGeneral {
         width: 100%;
         margin: auto;
     }
-    .logo {
-        background-image: url(../IMG/logo.PNG);
-        width: 40em;
-        height: 10em;
-        display: inline-block;
-        margin-top: 5em;
-        margin-left: 3.5em;
-        background-repeat: no-repeat;
-    }
-    .cajaMenu {
-        width: 70%;
-        height: 10em;
-        display: inline-block;
-        margin-top: 5em;
-    }
-    .section {
+.logo {
+    background-image: url(../IMG/logo.PNG);
+    width: 40em;
+    height: 10em;
+    display: inline-block;
+    margin-top: 5em;
+    margin-left: 3.5em;
+    background-size: cover;
+}
+.cajaMenu {
+    width: 70%;
+    height: 10em;
+    display: inline-block;
+    margin-top: 5em;
+}
+.section {
         display: block;
-    }
-    .contenido {
+}
+.contenido {
         float: left;
         width: 40em;
         height: 60em;
         margin: 0em 4em 10em 4em;
-    }
+}
 }
 
 
@@ -171,35 +200,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c940d6', end
 ----------------------*/
 
 @media only screen and (max-width:767px) {
-    body {
+body {
         font-size: 7px;
         padding-left: 5%;
         padding-right: 5%;
     }
-    .boyGeneral {
+.boyGeneral {
         width: 100%;
         margin: auto;
     }
-    .logo {
+.logo {
         background-image: url(../IMG/logo.PNG);
         width: 17em;
         display: inline-block;
         margin-top: 6.5em;
         margin-left: 1em;
         background-repeat: no-repeat;
-        
+        background-size: cover;
     }
-    .cajaMenu {
+.cajaMenu {
         width: 50%;
         height: 10em;
         display: inline-block;
         margin-top: 5em;
     }
-    .section {
+.section {
         display: block;
         width: 100%;
     }
-    .contenido {
+.contenido {
         float: none;
         display: block;
         margin: auto;
@@ -208,6 +237,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c940d6', end
         margin-top: 3em;
         margin-bottom: 10em;
     }
-    }
 }
+
 
